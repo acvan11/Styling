@@ -1,0 +1,17 @@
+/* we have to write this to apply google font
+		DEFAULT VALUES:
+
+		Font Family: Montserrat
+
+		Greenish Blue : #34c6d3 (buttons, icons, lines & backgrounds)
+		Steel Gray    : #41464b (Headings)
+		Blue Bayoux   : #64707b (paragraphs)
+		white         : #fff (text with Black blackgrounds)
+
+
+*/
+
+body {
+	font-family: "Montserrat", sans-serif
+	color: #34c6d3;
+}
