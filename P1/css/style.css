@@ -1,4 +1,5 @@
-/* we have to write this to apply google font
+/*===============================
+ we have to write this to apply google font
 		DEFAULT VALUES:
 
 		Font Family: Montserrat
@@ -9,13 +10,38 @@
 		white         : #fff (text with Black blackgrounds)
 
 
-*/
+============================================*/
+/*	General CSS */
+html, body {
+	height: 100%;
+}
 
 body {
 	font-family: "Montserrat", sans-serif
 	color: #34c6d3;
 }
 
+/*=============================================
+					HOME
+================================================*/
+#home {
+	height: 100%;
+}
+
+#home-cover {
+	height: 100%;
+	background-image: url("../img/bg-home.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+
+
+
+/*================================================*/
 /* CSS - Just for Grid Examples */
 .col-1 { background-color: red }
 .col-2 { background-color: green }
