@@ -35,9 +35,6 @@ h3 {
 #home-cover {
 	height: 100%;
 	background-image: url("../img/bg-home.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
 }
 
 #home-content-box {
@@ -59,7 +56,15 @@ h3 {
 	font-weight: 700;
 	margin: 20px 0 20px 0;
 }
-
+/*=============================================
+					PARALLAX (Generic)
+================================================*/
+.bg-parallax {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
 
 /*===========================================
 		BUTTON (Generic)
