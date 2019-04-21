@@ -90,6 +90,27 @@ h3 {
 }
 
 
+/*===========================================
+		ANIMATE
+===============================================*/
+#home-cover, #home-heading, #home-btn {
+	 animation-duration: .5s;
+}
+
+#home-cover {
+  animation-delay: .1s;
+}
+
+#home-heading {
+  animation-delay: .5s;
+}
+
+#home-btn {
+  animation-delay: 1s;
+}
+
+
+
 /*================================================*/
 /* CSS - Just for Grid Examples */
 .col-1 { background-color: red }
